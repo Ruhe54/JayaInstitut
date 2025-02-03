@@ -9,15 +9,22 @@ Jaya Jaya Institut, berdiri sejak tahun 2000, telah mencetak lulusan berkualitas
 3. Apakah tingkat pengangguran (Unemployment_rate), inflasi (Inflation_rate), atau PDB (GDP) memiliki pola tertentu terhadap status dropout?
 
 ### Cakupan Proyek
-Tuliskan cakupan proyek yang akan dikerjakan.
+Proyek ini bertujuan untuk mengembangkan dashboard interaktif yang memberikan wawasan mendalam terkait status siswa di Jaya Jaya Institut. Cakupan proyek meliputi:
+
+1. Pengumpulan dan Pembersihan Data: Memastikan data yang digunakan akurat, lengkap, dan siap dianalisis.
+2. Analisis Data Eksploratif: Mengidentifikasi pola, tren, dan hubungan antar variabel yang berkaitan dengan status siswa.
+3. Pembuatan Dashboard Interaktif: Merancang visualisasi data yang mudah dipahami, seperti grafik distribusi, tren dropout, dan analisis faktor risiko.
+4. Pemantauan dan Evaluasi: Mengukur efektivitas dashboard dalam mendukung pengambilan keputusan dan strategi pencegahan dropout.
+5. Membuat Prototype : Mengembangkan solusi machine learning yang dapat digunakan untuk membantu intitusi mendeteksi status siswa.
+6. Rekomendasi Strategis: Memberikan rekomendasi berbasis data untuk membantu institusi dalam mengurangi angka dropout dan meningkatkan retensi siswa.
 
 ### Persiapan
 
-Sumber data: ....
+Sumber data: [https://archive.ics.uci.edu/dataset/697/predict+students+dropout+and+academic+success]
 
 Setup environment:
 ```
-
+pip install -r requirements.txt
 ```
 
 ## Business Dashboard
