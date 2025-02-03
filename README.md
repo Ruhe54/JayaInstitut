@@ -68,4 +68,3 @@ Jelaskan cara menjalankan protoype sistem machine learning yang telah dibuat. Se
 Berikan beberapa rekomendasi action items yang dapat dilakukan institut untuk mengurangi angka dropout :
 - Perlu adanya intervensi strategis seperti peningkatan program beasiswa, bimbingan akademik, dan pemantauan kondisi ekonomi untuk mengurangi angka dropout.
 - Membuat sesi konsultasi rutin dengan seluruh orang tua siswa terutama siswa dengan resiko dropout.
-- 
