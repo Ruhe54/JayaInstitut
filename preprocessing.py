@@ -47,7 +47,7 @@ def data_preprocessing(data):
     data = data.copy()
     df = pd.DataFrame()
 
-    df["Marital_status"] = scaler_Marital_status.transform(np.asarray(data["Marital_status"]))[0]
+    df["Marital_status"] = scaler_Marital_status.transform(np.asarray(data["Marital_status"]).reshape(-1, 1))[0]
     df["Application_mode"] = scaler_App_Mode.transform(np.asarray(data["Application_mode"]))
     df["Application_order"] = scaler_App_Order.transform(np.asarray(data["Application_order"]).reshape(-1, 1))[0]
     df["Course"] = scaler_Course.transform(np.asarray(data["Course"]).reshape(-1, 1))[0]
