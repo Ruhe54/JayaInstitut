@@ -24,6 +24,14 @@ Sumber data: [https://archive.ics.uci.edu/dataset/697/predict+students+dropout+a
 
 Setup environment:
 ```
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+venv\Scripts\activate     # Windows
+```
+
+Instalasi Library:
+
+```
 pip install -r requirements.txt
 ```
 
@@ -53,11 +61,19 @@ Link Dashboard = [http://localhost:3000/public/dashboard/1b461ec9-a7d5-4e9e-a3f0
 
 ## Menjalankan Sistem Machine Learning
 Jelaskan cara menjalankan protoype sistem machine learning yang telah dibuat. Selain itu, sertakan juga link untuk mengakses prototype tersebut.
-
+Untuk menjalakan protoype machine learning ini berikut adalah langkah-langkah nya :
+1. Download semua file yang terdapat pada repository ini.
+2. Buka file Dropout_app.py.
+3. Lakukan instalasi library.
 ```
-
+pip install -r requirements.txt
 ```
+4. Selanjutnya run file Dropout_app.py.
+5. Masukkan nilai pada setiap colomn.
+6. Setelah dirasa nilai sudah diinput tekan predict.
+7. Dan lihat hasil dari prediksi prototype.
 
+Link stramlit = [https://jayainstitut-hbo8pvpzitmg7jb8cbkwrz.streamlit.app/]
 ## Conclusion
 - Distribusi status siswa pada institut ini kurang baik dimana total kelulusan kurang dari 50%
 - Beasiswa berperan sebagai proteksi ganda—tidak hanya mengurangi beban finansial, tetapi juga meningkatkan rasa percaya diri dan motivasi siswa.
