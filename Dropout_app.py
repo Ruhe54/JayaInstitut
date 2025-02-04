@@ -75,15 +75,15 @@ with col4:
 col1, col2, col3 = st.columns(3)
 
 with col1:
-    Displaced = int(st.number_input(label='Displaced', value=236.64))
+    Displaced = int(st.number_input(label='Displaced', value=0))
     data["Displaced"] = Displaced
 
 with col2:
-    Educational_special_needs = int(st.number_input(label='Educational_special_needs', value=49.5))
+    Educational_special_needs = int(st.number_input(label='Educational_special_needs', value=0))
     data["Educational_special_needs"] = Educational_special_needs
 
 with col3:
-    Debtor = float(st.number_input(label='Debtor', value=216))
+    Debtor = float(st.number_input(label='Debtor', value=0))
     data["Debtor"] = Debtor
 
 col1, col2, col3, col4 = st.columns(4)
