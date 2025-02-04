@@ -6,7 +6,7 @@ col1, col2 = st.columns([1, 5])
 with col1:
     st.image("https://github.com/dicodingacademy/assets/raw/main/logo.png", width=130)
 with col2:
-    st.header('Credit Scoring App (Prototype)')
+    st.header('Status Prediction App (Prototype)')
 
 data = pd.DataFrame()
 
