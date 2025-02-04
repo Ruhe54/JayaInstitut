@@ -73,7 +73,7 @@ def data_preprocessing(data):
     df["Curricular_units_1st_sem_evaluations"] = scaler_1st_Eval.transform(np.asarray(data["Curricular_units_1st_sem_evaluations"]).reshape(-1, 1))[0]
     df["Curricular_units_1st_sem_approved"] = scaler_1st_Approved.transform(np.asarray(data["Curricular_units_1st_sem_approved"]).reshape(-1, 1))[0]
     df["Curricular_units_1st_sem_grade"] = scaler_1st_Grade.transform(np.asarray(data["Curricular_units_1st_sem_grade"]).reshape(-1, 1))[0]
-    df["Curricular_units_1st_sem_without_evaluations"] = scaler_1st_Without_Eval.transformdf(np.asarray(data["Curricular_units_1st_sem_without_evaluations"]).reshape(-1, 1))[0]
+    df["Curricular_units_1st_sem_without_evaluations"] = scaler_1st_Without_Eval.transform(np.asarray(data["Curricular_units_1st_sem_without_evaluations"]).reshape(-1, 1))[0]
     df["Curricular_units_2nd_sem_credited"] = scaler_2nd_Credited.transform(np.asarray(data["Curricular_units_2nd_sem_credited"]).reshape(-1, 1))[0]
     df["Curricular_units_2nd_sem_enrolled"] = scaler_2nd_Enrolled.transform(np.asarray(data["Curricular_units_2nd_sem_enrolled"]).reshape(-1, 1))[0]
     df["Curricular_units_2nd_sem_evaluations"] = scaler_2nd_Eval.transform(np.asarray(data["Curricular_units_2nd_sem_evaluations"]).reshape(-1, 1))[0]
