@@ -13,15 +13,15 @@ data = pd.DataFrame()
 col1, col2, col3 = st.columns(3)
 
 with col1:
-    Marital_status = int(st.number_input(label="Marital_status", index=1))
+    Marital_status = int(st.number_input(label="Marital_status"))
     data["Marital_status"] = [Marital_status]
 
 with col2:
-    Application_mode = int(st.number_input(label="Application_mode", index=1))
+    Application_mode = int(st.number_input(label="Application_mode"))
     data["Application_mode"] = [Application_mode]
 
 with col3:
-    Application_order = int(st.number_input(label="Application_order", index=5))
+    Application_order = int(st.number_input(label="Application_order"))
     data["Application_order"] = Application_order
 
 col1, col2, col3 = st.columns(3)
