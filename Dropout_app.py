@@ -50,7 +50,7 @@ with col2:
     data["Nacionality"] = Nacionality
 
 with col3:
-    Admission_grade = int(st.number_input(label='Admission_grade', value=0))
+    Admission_grade = float(st.number_input(label='Admission_grade', value=0))
     data["Admission_grade"] = Admission_grade
 
 
@@ -75,11 +75,11 @@ with col4:
 col1, col2, col3 = st.columns(3)
 
 with col1:
-    Displaced = float(st.number_input(label='Displaced', value=236.64))
+    Displaced = int(st.number_input(label='Displaced', value=236.64))
     data["Displaced"] = Displaced
 
 with col2:
-    Educational_special_needs = float(st.number_input(label='Educational_special_needs', value=49.5))
+    Educational_special_needs = int(st.number_input(label='Educational_special_needs', value=49.5))
     data["Educational_special_needs"] = Educational_special_needs
 
 with col3:
